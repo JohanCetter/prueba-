@@ -283,22 +283,7 @@ Los componentes relacionados con seguridad podrán organizarse en `core/security
 
 La autenticación deberá estar integrada con las dependencias de FastAPI para proteger los endpoints que requieran acceso autorizado.
 
-## 15. Documentación de la API
-
-La API será documentada utilizando OpenAPI. FastAPI permite generar documentación de los endpoints a partir de la definición de las rutas, parámetros y modelos.
-
-La documentación permitirá conocer:
-
-- Endpoints disponibles.
-- Métodos HTTP.
-- Parámetros.
-- Datos requeridos.
-- Respuestas.
-- Códigos de error.
-
-Esto facilitará que los integrantes del equipo puedan utilizar e integrar correctamente los servicios desarrollados.
-
-## 16. Comunicación entre frontend y backend
+## 15. Comunicación entre frontend y backend
 
 La comunicación entre React y FastAPI se realizará mediante una API REST utilizando JSON.
 
@@ -326,7 +311,7 @@ Usuario administrativo
 
 El backend procesará la solicitud y devolverá una respuesta que será interpretada por React para actualizar la interfaz.
 
-## 17. Estructura general del proyecto
+## 16. Estructura general del proyecto
 
 Teniendo en cuenta el frontend, backend y los elementos de apoyo, la estructura general será:
 
@@ -364,7 +349,7 @@ El `README.md` en la raíz del repositorio describe el proyecto en general y la 
 
 Esta estructura representa la organización inicial que seguirá el proyecto y podrá ampliarse conforme se desarrollen nuevos módulos.
 
-## 18. Política de trabajo con Git
+## 17. Política de trabajo con Git
 
 Para controlar el desarrollo del proyecto se utilizará Git y GitHub. El objetivo es mantener un historial de cambios organizado y facilitar el trabajo colaborativo entre las diferentes células del equipo.
 
@@ -375,17 +360,6 @@ Se utilizará una rama principal (`main`) para contener las versiones estables d
 ### Ramas de desarrollo
 
 Se podrá utilizar una rama (`develop`) destinada al desarrollo de nuevas funcionalidades.
-
-### Ramas por funcionalidad
-
-Cada funcionalidad deberá desarrollarse preferiblemente en una rama independiente.
-
-Ejemplos:
-
-- `feature/usuarios`
-- `feature/residuos`
-- `feature/rutas`
-- `feature/vehiculos`
 
 ### Pull Request
 
